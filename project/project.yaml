@@ -1,0 +1,33 @@
+---
+Name: Wind Waker HD
+WUAPPSVersion: "3.0"
+SourcesBaseDir: "."
+Variables:
+  GAME_DIR: "../game"
+  GAME_LIB_DIR: "../game/lib"
+  HAXX_DIR: "../haxx/src"
+  HAXX_LIB_DIR: "../haxx/lib"
+  MODULES_DIR: "./modules"
+  GAME_MODULES_DIR: "./modules/game"
+  LIB_MODULES_DIR: "./modules/lib"
+IncludeDirs:
+  - "$GAME_DIR/include"
+  #- "$GAME_LIB_DIR/ffl/include"
+  #- "$GAME_LIB_DIR/nw/G3d/include"
+  #- "$GAME_LIB_DIR/nw/Lyt/include"
+  #- "$GAME_LIB_DIR/nw/Snd/include"
+  - "$GAME_LIB_DIR/sead/engine/library/include"
+  #- "$HAXX_DIR/include"
+  - "$HAXX_LIB_DIR/cafe_sdk/include"
+  - "$HAXX_LIB_DIR/dynamic_libs/include"
+Modules:
+  - "$GAME_MODULES_DIR/test"
+  #- "$GAME_MODULES_DIR/actor"
+  #- "$GAME_MODULES_DIR/item"
+  #- "$LIB_MODULES_DIR/dynamic_libs"
+BuildOptions:
+  - "--implicit_typename"
+  - "-DEPPC"
+  - "-DNW_RELEASE"
+Targets:
+  TWWHD_EU_v1.0.0: ~
