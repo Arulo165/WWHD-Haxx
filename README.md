@@ -6,3 +6,5 @@ rn there are no Haxx in there the only one replaces the getEnabled function in E
 
 # Credits
 Sead headers and CLPC by AboodXD
+
+Zelda Decomp team for the Basic Ghidra DB
