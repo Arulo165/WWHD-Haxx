@@ -1,6 +1,6 @@
 #pragma once
-#include "basis/seadTypes.h"
 #include <thread/seadCriticalSection.h>
+#include <types.h>
 
 class EnergySaver
 {
@@ -8,7 +8,6 @@ public:
     // Adress: 0x02032A34
     EnergySaver();
 
-    ~EnergySaver();
     // Adress: 0x02032C6C
     EnergySaver* getInstance();
     // Adress: 0x02032BD0

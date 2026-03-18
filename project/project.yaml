@@ -30,4 +30,4 @@ BuildOptions:
   - "-DEPPC"
   - "-DNW_RELEASE"
 Targets:
-  TWWHD_EU_v1.0.0: ~
+  TWWHD_US_v1.0.0: ~

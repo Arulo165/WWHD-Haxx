@@ -1,7 +1,5 @@
 #pragma once
-#include "basis/seadTypes.h"
 #include "types.h"
-#include <os/types.h>
 
 namespace GameEnums
 {

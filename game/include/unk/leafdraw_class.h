@@ -1,5 +1,6 @@
 #pragma once
 #include <base/base_process_class.h>
+#include <types.h>
 
 class Leafdraw_Class : public Base_Process_Class
 {

@@ -2,3 +2,6 @@
 /project/out
 /project/rpxs
 /project/temp
+/.vscode
+/build
+CMakeLists.txt

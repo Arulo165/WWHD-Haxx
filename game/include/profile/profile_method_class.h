@@ -1,6 +1,4 @@
 #pragma once
-#include "basis/seadTypes.h"
-#include "os/types.h"
 #include <profile/profile_leaf_method_class.h>
 
 
