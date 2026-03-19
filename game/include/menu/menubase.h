@@ -7,6 +7,9 @@
 class MenuBaseParent
 {
 public:
+    // Adress: 0x020032F4
+    MenuBaseParent();
+    // Adress: 0x0200333C
     virtual ~MenuBaseParent();
 private:
     u32 _00;
@@ -23,6 +26,6 @@ private:
     u8                  mResourcePtrs[0xC];
     u32                 _44;
     u32                 mNum_ptrs;
-    MenuBaseParent**    mChildren_ptrs_maybe;
+    MenuBaseParent**    mpChildren_ptrs_maybe;
 };
 static_assert((sizeof(MenuBase) == 0x50), "MenuBase Size Missmatch");

@@ -9,4 +9,4 @@ public:
 private:
     MenuStateHolder mStateHolder;
 };
-static_assert((sizeof(MenuStateMgr) == 0x28), "MenuStateChanger ize Missmatch");
+static_assert((sizeof(MenuStateMgr) == 0x28), "MenuStateChanger Size Missmatch");

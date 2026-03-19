@@ -1,5 +1,5 @@
 #pragma once
-#include <basis/seadTypes.h>
+#include <types.h>
 
 class MenuBase;
 

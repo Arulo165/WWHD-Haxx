@@ -6,7 +6,7 @@ class daPy_py_c : public fopAc_ac_c
 public:
     // Adress: 0x023D47E8
     daPy_py_c();
-    // Adress: 0x023D483
+    // Adress: 0x023D483C
     ~daPy_py_c();
     // Adress: 0x023D4688
     void changePlayer(fopAc_ac_c*  pPlayer);
