@@ -6,4 +6,4 @@ Hooks:
   - type: branch
     instr: b
     addr: 0x02032BD0
-    func: test
+    func: isEnbled__11EnergySaverFv

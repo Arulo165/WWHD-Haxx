@@ -12,22 +12,15 @@ Variables:
   LIB_MODULES_DIR: "./modules/lib"
 IncludeDirs:
   - "$GAME_DIR/include"
-  #- "$GAME_LIB_DIR/ffl/include"
-  #- "$GAME_LIB_DIR/nw/G3d/include"
-  #- "$GAME_LIB_DIR/nw/Lyt/include"
-  #- "$GAME_LIB_DIR/nw/Snd/include"
   - "$GAME_LIB_DIR/sead/engine/library/include"
-  #- "$HAXX_DIR/include"
   - "$HAXX_LIB_DIR/cafe_sdk/include"
   - "$HAXX_LIB_DIR/dynamic_libs/include"
 Modules:
-  - "$GAME_MODULES_DIR/test"
-  #- "$GAME_MODULES_DIR/actor"
-  #- "$GAME_MODULES_DIR/item"
-  #- "$LIB_MODULES_DIR/dynamic_libs"
+  - "$GAME_MODULES_DIR/EnergySaver"
 BuildOptions:
   - "--implicit_typename"
   - "-DEPPC"
   - "-DNW_RELEASE"
 Targets:
   TWWHD_US_v1.0.0: ~
+  TWWHD_EU_v1.0.0: ~

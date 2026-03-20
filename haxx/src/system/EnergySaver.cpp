@@ -1,10 +1,7 @@
 #include <basis/seadTypes.h>
 #include <system/EnergySaver.h>
 
-extern "C"
+bool EnergySaver::isEnbled()
 {
-    bool test()
-    {
-        return true;
-    }
+    return this->mEnabled;
 }
